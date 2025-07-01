@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.board{
+    padding:10.6px ;
+    margin: 10px 10px 10px 100px;
+    height: 550px;
+    width: 550px;
+    border: 2px solid black;
+   display: flex;
+   flex-wrap: wrap;
+  box-shadow: 2px 3px 3px 2px;
+}
+#box{
+    padding: 30.8px;
+   height: 65px;
+   width: 65px;
+   border: 2px solid black;
+   box-shadow: 1px 1px 1px 1px;
+   
+}
+.black{
+    background-color: black;
+}
